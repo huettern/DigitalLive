@@ -1,0 +1,43 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "noahhuetter@gmail.com",
+    "longName": "Digital Live",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/digital-7.ttf",
+                "name": "FONT_DIGITAL_STRAIGHT_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9;: ]",
+                "file": "fonts/digital-7 (mono).ttf",
+                "name": "FONT_DIGITAL_MONO_45",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Amble-Bold.ttf",
+                "name": "FONT_AMBLE_BOLD_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/imagine.ttf",
+                "name": "FONT_IMAGINE_42",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Digital Live",
+    "uuid": "7a4ec24c-b6e2-4919-823f-1d64a01df219",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
