@@ -17,12 +17,12 @@ static void initialise_ui(void) {
   
   //s_res_bitham_42_bold = fonts_get_system_font("FONT_KEY_BITHAM_30_BLACK"); //FONT_EXO2_BOLD_42 FONT_KEY_BITHAM_42_BOLD
   // s_clock_layer
-  s_clock_layer = text_layer_create(GRect(0, 38, 144, 45));
-  text_layer_set_background_color(s_clock_layer, GColorClear);
-  text_layer_set_text_color(s_clock_layer, GColorWhite);
+  s_clock_layer = text_layer_create(GRect(0, 0, 144, 55));
+  text_layer_set_background_color(s_clock_layer, GColorWhite);
+  text_layer_set_text_color(s_clock_layer, GColorBlack);
   text_layer_set_text(s_clock_layer, "     ");
   text_layer_set_text_alignment(s_clock_layer, GTextAlignmentCenter);
-  text_layer_set_font(s_clock_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_DIGITAL_MONO_45))); //FONT_IMAGINE_42 RESOURCE_ID_FONT_EXO2_BOLD_42 FONT_GRUPO3_42
+  text_layer_set_font(s_clock_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_DIGITAL_MONO_55))); //FONT_IMAGINE_42 RESOURCE_ID_FONT_EXO2_BOLD_42 FONT_GRUPO3_42
   //text_layer_set_font(s_clock_layer, fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK)); //FONT_IMAGINE_42 RESOURCE_ID_FONT_EXO2_BOLD_42 FONT_GRUPO3_42
   layer_add_child(window_get_root_layer(s_window), (Layer *)s_clock_layer);
   
